@@ -2,9 +2,6 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-@media screen and (max-width: 900px) {
-}
-
 body {
     margin: 0;
     background-color: darksalmon;
@@ -15,6 +12,9 @@ header {
     background-color: darkmagenta;
     color: white;
     padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header img {
@@ -28,7 +28,7 @@ header img {
 
 nav ul {
     list-style: none;
-    margin: 10px 0;
+    margin: 0 10px;
     padding: 0;
     display: flex;
 }
